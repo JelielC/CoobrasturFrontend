@@ -1,0 +1,118 @@
+.new-client-container{
+    width: 100%;
+}
+
+.new-client-container header{
+    background-color: #08436F;
+    height: 107px;
+    width: 1518px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-client-container header img{
+    margin-right: auto;
+    margin-left: 200px;
+}
+
+.new-client-container h1{
+    width: 200px;
+    height: 26px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    color: #08436F;
+}
+
+.new-client-container section h2{
+    margin-right: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.new-client-container section p{
+    margin-right: auto;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.new-client-container form h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: -5px;
+    margin-top: 20px;
+    color: #534C4C;
+}
+
+.new-client-container form input{
+    margin-right: auto;
+    margin-left: 200px;
+    margin-top: 0px;
+    height: 30px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.buttonCad{
+    width: 100px;
+    height: 44px;
+    color: #FFF;
+    margin-right: auto;
+    margin-left: 200px;
+
+    background: #08436F;
+    border-radius: 5px;
+
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    transition: filter 0.2s;
+}
+
+.buttonBack{
+    width: 100px;
+    height: 44px;
+    color: #534C4C;
+    margin-right: auto;
+    margin-left: 20px;
+
+    background: #FFF;
+    border-radius: 5px;
+
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    transition: filter 0.2s;
+}
+
+.buttonBackLink{
+    width: 100px;
+    height: 44px;
+    color: #534C4C;
+    margin-right: auto;
+
+    background: #FFF;
+    border-radius: 5px;
+
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    transition: filter 0.2s;
+}
+
+.button:hover{
+    filter: brightness(90%);
+}

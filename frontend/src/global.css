@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    background: #E5E5E5;
+}
+
+input, button, textarea{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+button{
+    cursor: pointer;
+}
+
+form input{
+    left: 0%;
+    right: 0%;
+    top: 30.16%;
+    bottom: 0%;
+
+    margin-bottom: 15px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    max-width: 343px;
+}
+
+.buttonLogin{
+    width: 100%;
+    max-width: 343px;
+    height: 44px;
+    color: #FFF;
+
+    background: #08436F;
+    border-radius: 10px;
+
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    transition: filter 0.2s;
+}
+
+.buttonLogOut{
+    display: flex;
+    width: 60px;
+    height: 19px;
+    color: #FFF;
+
+    background: #08436F;
+    border-radius: 10px;
+
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    transition: filter 0.2s;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.button{
+    width: 200px;
+    height: 40.94px;
+    color:#534C4C;
+    background: #FFF;
+    border-radius: 10px;
+
+    border: 0;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: filter 0.2s;
+    margin-right: 50px;
+}
+
+.buttonEdit{
+    width: 200px;
+    height: 40.94px;
+    color:#FFF;
+    background: #08436F;
+    border-radius: 10px;
+
+    border: 0;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: filter 0.2s;
+    margin-right: 50px;
+}
+
+
+.button:hover{
+    filter: brightness(90%);
+}
